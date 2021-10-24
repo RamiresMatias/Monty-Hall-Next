@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+    padding: 15px 10px;
 }
 
 .portas{
@@ -11,4 +12,19 @@
     flex-wrap: wrap;
     align-self: stretch;
     justify-content: space-around;
+    gap: 5px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.botoes button {
+    background-color: #c0392c;
+    color:  #fff;
+    font-size: 2rem;
+    border: none;
+    padding: 10px 25px;
 }
